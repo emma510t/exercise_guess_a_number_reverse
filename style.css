@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+body {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: lemonchiffon;
+}
+
+section {
+  padding: 2rem;
+  margin: 5rem auto;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: salmon;
+  justify-content: center;
+  background-color: white;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: tomato;
+  margin: 0 0 1.4rem;
+}
+
+button {
+  border-style: solid;
+  border-radius: 7px;
+  border-color: salmon;
+  box-shadow: 5px 5px turquoise;
+  background-color: lightsalmon;
+  padding: 0.4rem;
+  margin: 0.6rem;
+  color: white;
+}
+
+p {
+  font-size: 1.6rem;
+  color: tomato;
+  margin: 1.2rem 0;
+  font-weight: 600;
+}
+
+button:hover {
+  box-shadow: 3px 3px darkturquoise;
+  cursor: pointer;
+}
