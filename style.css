@@ -22,6 +22,7 @@ section {
   border-color: salmon;
   justify-content: center;
   background-color: white;
+  min-height: 333px;
 }
 
 h1 {
@@ -51,4 +52,12 @@ p {
 button:hover {
   box-shadow: 3px 3px darkturquoise;
   cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.inactive {
+  pointer-events: none;
 }
